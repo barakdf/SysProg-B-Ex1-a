@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SysProg_B_Ex1_a" targetName="SysProg_B_Ex1_a" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c904b9f0-724e-4857-a40d-b933e4d9deab" name="Changes" comment="" />
+    <list default="true" id="a79e33a5-a73b-495e-9b8c-e0e1c009bb69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mat.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="26Qa8Nyt1sSMUAc6qIn0sJbTYTj" />
+  <component name="ProjectId" id="26QaImPVO81uMdKEupa26fLphOV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,27 +40,100 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile Target.clean">
+    <configuration name="SysProg_B_Ex1_a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Makefile (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="Makefile" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="clean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="tidy" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="tidy" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.SysProg_B_Ex1_a" />
+      <item itemvalue="Makefile Target.run" />
+      <item itemvalue="Makefile Target.tidy" />
+      <item itemvalue="Makefile Target.Makefile" />
+      <item itemvalue="Makefile Target.Makefile (1)" />
+      <item itemvalue="Makefile Target.clean" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.clean" />
+        <item itemvalue="Makefile Target.run" />
+        <item itemvalue="Makefile Target.Makefile (1)" />
+        <item itemvalue="Makefile Target.Makefile" />
+        <item itemvalue="Makefile Target.tidy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c904b9f0-724e-4857-a40d-b933e4d9deab" name="Changes" comment="" />
-      <created>1647358106312</created>
+      <changelist id="a79e33a5-a73b-495e-9b8c-e0e1c009bb69" name="Changes" comment="" />
+      <created>1647358187029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1647358106312</updated>
-      <workItem from="1647358108006" duration="78000" />
+      <updated>1647358187029</updated>
+      <workItem from="1647358189728" duration="190000" />
+      <workItem from="1647358497696" duration="2133000" />
+      <workItem from="1647383401950" duration="1603000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
