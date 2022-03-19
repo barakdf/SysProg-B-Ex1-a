@@ -7,4 +7,12 @@
 #IncludeRegexTransform: 
 
 /mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/mat.cpp
+iostream
+-
+mat.hpp
+/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/mat.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/mat.hpp
+string
+-
 
