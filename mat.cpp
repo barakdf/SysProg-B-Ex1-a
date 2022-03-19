@@ -5,7 +5,7 @@
 #include <iostream>
 #include "mat.hpp"
 namespace ariel {
-    std::string mat(int a, int b, char c, char d) {
+    std::string mat(int col, int row, char s1, char s2) {
         return "test";
     }
 }

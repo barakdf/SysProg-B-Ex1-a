@@ -12,10 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a79e33a5-a73b-495e-9b8c-e0e1c009bb69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mat.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mat.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mat.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +44,6 @@
   </component>
   <component name="RunManager" selected="Makefile Target.clean">
     <configuration name="SysProg_B_Ex1_a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -117,7 +111,8 @@
       <updated>1647358187029</updated>
       <workItem from="1647358189728" duration="190000" />
       <workItem from="1647358497696" duration="2133000" />
-      <workItem from="1647383401950" duration="1603000" />
+      <workItem from="1647383401950" duration="1825000" />
+      <workItem from="1647693213732" duration="4992000" />
     </task>
     <servers />
   </component>
