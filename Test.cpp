@@ -1,4 +1,3 @@
-
 /**
  * An example of how to write unit tests.
  * Use this as a basis to build a more complete Test.cpp file.
@@ -37,6 +36,9 @@ string nospaces(string input) {
 
 
 TEST_CASE ("Good input") {
+
+            CHECK(nospaces(mat(1, 1, '@', '-')) == nospaces("@"));
+
             CHECK(nospaces(mat(9, 7, '@', '-')) == nospaces("@@@@@@@@@\n"
                                                             "@-------@\n"
                                                             "@-@@@@@-@\n"

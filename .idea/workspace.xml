@@ -13,10 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a79e33a5-a73b-495e-9b8c-e0e1c009bb69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SysProg_B_Ex1_a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SysProg_B_Ex1_a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SysProg_B_Ex1_a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mat.cpp" afterDir="false" />
     </list>
@@ -47,13 +46,19 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="CMake Application.SysProg_B_Ex1_a">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Doctest.Bad input">
+    <configuration name="Bad input" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a" TEST_METHOD="Bad input" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="SysProg_B_Ex1_a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -87,27 +92,21 @@
       </makefile>
       <method v="2" />
     </configuration>
-    <configuration name="tidy" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
-      <makefile filename="$PROJECT_DIR$/Makefile" target="tidy" workingDirectory="" arguments="">
-        <envs />
-      </makefile>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="CMake Application.SysProg_B_Ex1_a" />
       <item itemvalue="Makefile Target.run" />
-      <item itemvalue="Makefile Target.tidy" />
       <item itemvalue="Makefile Target.Makefile" />
       <item itemvalue="Makefile Target.Makefile (1)" />
       <item itemvalue="Makefile Target.clean" />
+      <item itemvalue="Doctest.Bad input" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Doctest.Bad input" />
         <item itemvalue="Makefile Target.clean" />
         <item itemvalue="Makefile Target.run" />
         <item itemvalue="Makefile Target.Makefile (1)" />
         <item itemvalue="Makefile Target.Makefile" />
-        <item itemvalue="Makefile Target.tidy" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +121,8 @@
       <workItem from="1647358189728" duration="190000" />
       <workItem from="1647358497696" duration="2133000" />
       <workItem from="1647383401950" duration="1825000" />
-      <workItem from="1647693213732" duration="10296000" />
+      <workItem from="1647693213732" duration="19137000" />
+      <workItem from="1647966300240" duration="7699000" />
     </task>
     <servers />
   </component>
@@ -140,21 +140,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/mat.cpp</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/mat.cpp</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
