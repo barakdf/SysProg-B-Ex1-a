@@ -123,33 +123,6 @@ SysProg_B_Ex1_a/fast:
 	$(MAKE) -f CMakeFiles/SysProg_B_Ex1_a.dir/build.make CMakeFiles/SysProg_B_Ex1_a.dir/build
 .PHONY : SysProg_B_Ex1_a/fast
 
-Test.o: Test.cpp.o
-
-.PHONY : Test.o
-
-# target to build an object file
-Test.cpp.o:
-	$(MAKE) -f CMakeFiles/SysProg_B_Ex1_a.dir/build.make CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.o
-.PHONY : Test.cpp.o
-
-Test.i: Test.cpp.i
-
-.PHONY : Test.i
-
-# target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) -f CMakeFiles/SysProg_B_Ex1_a.dir/build.make CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.i
-.PHONY : Test.cpp.i
-
-Test.s: Test.cpp.s
-
-.PHONY : Test.s
-
-# target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) -f CMakeFiles/SysProg_B_Ex1_a.dir/build.make CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.s
-.PHONY : Test.cpp.s
-
 mat.o: mat.cpp.o
 
 .PHONY : mat.o
@@ -186,9 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SysProg_B_Ex1_a"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
 	@echo "... mat.o"
 	@echo "... mat.i"
 	@echo "... mat.s"

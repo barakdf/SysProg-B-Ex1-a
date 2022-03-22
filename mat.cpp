@@ -1,10 +1,5 @@
-//
-// Created by barak on 15/03/2022.
-//
-
 #include <vector>
 #include <iostream>
-#include <exception>
 #include "mat.hpp"
 
 namespace ariel {
@@ -28,11 +23,16 @@ namespace ariel {
         if (row <= 0 || col <= 0) {
             throw std::invalid_argument("Mat should be positive");
         }
-        if ((int) s1 <= 32 || (int) s2 <= 32) {
+        const int invalid_symbol = 32;
+        if ((int) s1 <= invalid_symbol || (int) s2 <= invalid_symbol) {
             throw std::invalid_argument("Invalid symbols");
         }
-        int l_mat[row][col];
-        int r_mat[row][col];
+        std::vector<std::vector<int>> l_mat(row);
+        std::vector<std::vector<int>> r_mat(row);
+        for (int i = 0; i < row; ++i) {
+            l_mat[i] = std::vector<int>(col);
+            r_mat[i] = std::vector<int>(col);
+        }
 
         for (int i = 0; i < max(col, row); ++i) {
             if (i < row) {

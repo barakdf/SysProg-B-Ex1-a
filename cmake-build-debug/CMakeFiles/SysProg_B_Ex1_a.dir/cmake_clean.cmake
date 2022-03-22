@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.o"
   "CMakeFiles/SysProg_B_Ex1_a.dir/mat.cpp.o"
   "SysProg_B_Ex1_a"
   "SysProg_B_Ex1_a.pdb"

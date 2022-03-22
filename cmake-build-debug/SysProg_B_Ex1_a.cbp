@@ -84,9 +84,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/Test.cpp">
-			<Option target="SysProg_B_Ex1_a"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/mat.cpp">
 			<Option target="SysProg_B_Ex1_a"/>
 		</Unit>

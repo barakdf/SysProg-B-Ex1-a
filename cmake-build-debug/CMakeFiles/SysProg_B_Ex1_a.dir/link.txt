@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/SysProg_B_Ex1_a.dir/mat.cpp.o CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.o  -o SysProg_B_Ex1_a 
+/usr/bin/c++  -g   CMakeFiles/SysProg_B_Ex1_a.dir/mat.cpp.o  -o SysProg_B_Ex1_a 

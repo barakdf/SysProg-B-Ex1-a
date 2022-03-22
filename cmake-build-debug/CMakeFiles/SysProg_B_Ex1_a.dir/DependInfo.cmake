@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/Test.cpp" "/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/Test.cpp.o"
   "/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/mat.cpp" "/mnt/c/Users/barak/Documents/GitHub/SysProg-B-Ex1-a/cmake-build-debug/CMakeFiles/SysProg_B_Ex1_a.dir/mat.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
