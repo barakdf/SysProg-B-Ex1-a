@@ -35,4 +35,8 @@ int main() {
 	} catch (exception& ex) {
 	 	cout << "   caught exception: " << ex.what() << endl;  // should print "Mat size is always odd"
 	}
+
+    cout << ariel::mat(3, 3, '@', '-') << endl;
+
+
 }

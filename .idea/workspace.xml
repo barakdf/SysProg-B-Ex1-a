@@ -13,7 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a79e33a5-a73b-495e-9b8c-e0e1c009bb69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +44,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="CMake Application.SysProg_B_Ex1_a">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Bad input" type="CMakeDoctestTestRunConfigurationType" factoryName="doctest Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a" TEST_METHOD="Bad input" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -56,6 +51,11 @@
       </method>
     </configuration>
     <configuration name="SysProg_B_Ex1_a" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SysProg_B_Ex1_a" TARGET_NAME="SysProg_B_Ex1_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SysProg_B_Ex1_a" RUN_TARGET_NAME="SysProg_B_Ex1_a">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -120,7 +120,8 @@
       <workItem from="1647383401950" duration="1825000" />
       <workItem from="1647693213732" duration="19137000" />
       <workItem from="1647966300240" duration="9293000" />
-      <workItem from="1648033678699" duration="453000" />
+      <workItem from="1648033678699" duration="516000" />
+      <workItem from="1648034593516" duration="1930000" />
     </task>
     <servers />
   </component>
