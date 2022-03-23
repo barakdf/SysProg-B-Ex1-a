@@ -18,6 +18,7 @@ using namespace ariel;
 
 #include <string>
 #include <algorithm>
+#include <stdexcept>
 
 using namespace std;
 
@@ -36,7 +37,7 @@ string nospaces(string input) {
 
 
 TEST_CASE ("Good input") {
-
+            /* check with size 1X1 */
             CHECK(nospaces(mat(1, 1, '@', '-')) == nospaces("@"));
 
             CHECK(nospaces(mat(9, 7, '@', '-')) == nospaces("@@@@@@@@@\n"
@@ -53,6 +54,7 @@ TEST_CASE ("Good input") {
                                                             "@-----------@\n"
                                                             "@@@@@@@@@@@@@"));
 
+            /* check with bigger size */
             CHECK(nospaces(mat(33, 17, '$', '+')) == nospaces("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
                                                                "$+++++++++++++++++++++++++++++++$\n"
                                                                "$+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$+$\n"
@@ -70,10 +72,6 @@ TEST_CASE ("Good input") {
                                                                "$+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$+$\n"
                                                                "$+++++++++++++++++++++++++++++++$\n"
                                                                "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"));
-
-
-
-    /* Add more test here */
 }
 
 TEST_CASE ("Bad input") {
@@ -116,9 +114,5 @@ TEST_CASE ("Bad input") {
 
 
     }
-    /* Add more test here */
 }
-
-
-/* Add more test cases here */
 
